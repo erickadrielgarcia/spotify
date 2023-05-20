@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- boostrap -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+</head>
+<body>
+
+    <!-- Barra de navegação -->
+    <div id="navbar">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5">
+                <a href="#"><img id="spotify" src="../img/Spotify.svg" class="mt-4 mb-3" alt="favicon"></a>
+            </div>
+            <div class="col-sm-5 item ps">
+                <a href="#" class="item-nav">Premium</a>
+                <a href="#" class="item-nav ps-4">Ajuda</a>
+                <a href="#" class="item-nav ps-4">Baixar</a>
+                <a href="#" class="item-nav"><span class="ps-3">|</span> 
+                <span class="ps-3">Entrar</span></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h1 class="titulo-slider"><strong>Música para todos</strong></h1>
+                <a href="#" id="free" class="item-slider">APROVEITE O SPOTIFY FREE</a>
+                <a href="#" id="premium" class="item-slider">OBTER O SPOTIFY PREMIUM</a>
+            </div>
+            <div class="carousel-item">
+                <h1 class="titulo-slider"><strong>As melhores rádios</strong></h1>
+                <a href="#" id="premium"><img src="../img/nota.png" alt="nota musical" id="nota">OUÇA AGORA</a>
+            </div>
+        </div>
+      
+      <!-- Icones -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    
+    <!-- Galeria -->
+    <div class="galeria">
+        <div class="row">
+
+            <!-- Primeiras imagens que compõe a gelaeira -->
+            <div class="col-sm-5 pe-0">
+                <button class="botton-galeria" id="action-btn-1">
+                    <img src="../img/img1.jpg" alt="imagem 1 galeria" class="img_galeria" id="imagem-1">
+                </button>
+                <button class="botton-galeria" id="action-btn-2">
+                    <img src="../img/img2.jpg" alt="imagem 2 galeria" class="img_galeria ms-3">
+                </button>
+                <br>
+                <button class="botton-galeria" id="action-btn-3">
+                    <img src="../img/img3.jpg" alt="imagem 3 galeria" class="img_galeria mt-4">
+                </button>
+                <button class="botton-galeria" id="action-btn-4">
+                    <img src="../img/img4.jpg" alt="imagem 4 galeria" class="img_galeria mt-4 ms-3" id="action-btn-4">
+                </button>
+            </div>
+
+            <!-- Conteúdo Padrão da página -->
+            <div class="col-sm-6 ps-0">
+                <div id="galeria-item-index">
+                    <h1 class="titulo-principal"><strong>O que o Spotify tem?</strong></h1>
+                    <h3 class="subtitulo"><strong>Músicas</strong></h3>
+                    <p>
+                        O Spotify tem milhões de músicas. Escute seus sons favoritos,
+                        <br>
+                        descubra novas músicas e reúna seus favoritos em um só lugar.
+                    </p>
+                    <h3 class="subtitulo"><strong>Playlists</strong></h3>
+                    <p>
+                        No Spotify você encontra uma playlist para cada momento.
+                        <br>
+                        Todas feitas por fanáticos e especialistas da música.
+                    </p>
+                    <h3 class="subtitulo"><strong>Novos lançamentos</strong></h3>
+                    <p>
+                        Escute os novos lançamentos de singles e álbuns da semana e
+                        <br>
+                        veja o que está bombando no Top 50.
+                    </p>
+                </div>
+
+                <!-- Conteúdo quando a primeira imagem é pressionada -->
+                <div id="galeria-item-1">
+                    <h1 class="titulo-principal"><strong>O que Lorem Ipsum?</strong></h1>
+                    <h3 class="subtitulo"><strong>Porque é que usamos?</strong></h3>
+                    <p>
+                        Letraset, que contenham passagens com Lorem Ipsum, e mais
+                        <br>
+                        recentemente com os programas de publicação como Aldus Pagemaker
+                        <br>
+                        que incluem versões do Lorem Ipsum.
+                    </p>
+                    <h3 class="subtitulo"><strong>De onde é que ele vem?</strong></h3>
+                    <p>
+                        Letraset, que contenham passagens com Lorem Ipsum, e mais
+                        <br>
+                        recentemente com os programas de publicação como Aldus Pagemaker
+                        <br>
+                        que incluem versões do Lorem Ipsum.
+                    </p>
+                    <h3 class="subtitulo"><strong>Onde posso arrajar algum?</strong></h3>
+                    <p>
+                        Letraset, que contenham passagens com Lorem Ipsum, e mais
+                        <br>
+                        recentemente com os programas de publicação como Aldus Pagemaker
+                        <br>
+                        que incluem versões do Lorem Ipsum.
+                    </p>
+                </div>
+
+                <!-- Conteúdo quando a segunda imagem é pressionada -->
+                <div id="galeria-item-2">
+                    <h1 class="titulo-principal"><strong>O que Lorem Ipsum?</strong></h1>
+                    <h3 class="subtitulo"><strong>Porque é que usamos?</strong></h3>
+                    <p>
+                        Letraset, que contenham passagens com Lorem Ipsum, e mais
+                        <br>
+                        recentemente com os programas de publicação como Aldus Pagemaker
+                        <br>
+                        que incluem versões do Lorem Ipsum.
+                    </p>
+                    
+                </div>
+
+                <!-- Conteúdo quando a terceira imagem é pressionada -->
+                <div id="galeria-item-3">
+                    <h1 class="titulo-item-3"><strong>O que Lorem Ipsum?</strong></h1>
+                    <h3 class="subtitulo"><strong>Porque é que usamos?</strong></h3>
+                    <p>
+                        Letraset, que contenham passagens com Lorem Ipsum, e mais
+                        <br>
+                        recentemente com os programas de publicação como Aldus Pagemaker
+                        <br>
+                        que incluem versões do Lorem Ipsum.
+                    </p>
+                    <h3 class="subtitulo-item-3"><strong>De onde é que ele vem?</strong></h3>
+                    <p>
+                        Letraset, que contenham passagens com Lorem Ipsum, e mais
+                        <br>
+                        recentemente com os programas de publicação como Aldus Pagemaker
+                        <br>
+                        que incluem versões do Lorem Ipsum.
+                    </p>
+                    <h3 class="subtitulo"><strong>Onde posso arrajar algum?</strong></h3>
+                    <p>
+                        Letraset, que contenham passagens com Lorem Ipsum, e mais
+                        <br>
+                        recentemente com os programas de publicação como Aldus Pagemaker
+                        <br>
+                        que incluem versões do Lorem Ipsum.
+                    </p>
+                </div>
+
+                <!-- Conteúdo quando a quarta imagem é pressionada -->
+                <div id="galeria-item-image">
+                    <img src="../img/1.jpeg" alt="imagem 5 galeria" class="img_galeria">
+                    <img src="../img/2.jpeg" alt="imagem 6 galeria" class="img_galeria ms-3">
+                    <br>
+                    <img src="../img/3.jpeg" alt="imagem 7 galeria" class="img_galeria mt-4">
+                    <img src="../img/4.jpeg" alt="imagem 8 galeria" class="img_galeria mt-4 ms-3">
+                </div>            
+            </div>
+        </div>
+    
+    <!-- As imagens dos Iphones -->
+        <img class="iphone_2" src="../img/iphone2.png" alt="imagem iphone 1 ">
+        <img class="iphone_1" src="../img/iphone1.png" alt="imagem iphone"> 
+    </div>
+
+    <!-- Informações sobre o Spotify -->
+    <div class="info">
+        <h1 class="titulo-info">Fácil</h1>
+        <h3 class="mt-5">Buscar</h3>
+        <p class="texto-info">
+            Já sabe o que quer escutar? 
+            <br>
+            É só procurar e apertar o play
+        </p>
+        <br>
+        <h3>Navegar</h3>
+        <p class="texto-info">
+            Veja os novos lançamentos, o que está
+            <br>
+            bombando nas paradas e as melhores
+            <br>
+            playlists para o seu momento.
+        </p>
+        <br>    
+        <h3>Descobrir</h3>
+        <p class="texto-info">
+            Curta músicas novas toda segunda-feira
+            <br>
+            com uma playlist personalizada pra
+            <br>
+            você. Ou relaxe e curta uma das rádios.
+        </p>
+    </div>
+
+    <!-- Rodape -->
+    <div class="rodape">
+        <div class="row">
+            <div class="col-sm-3">
+                <img id="spotify-rodape" src="../img/spotify.svg" alt="imagem spotify">
+            </div>
+            <div class="col-sm-2 link-footer">
+                <strong class="titulo-rodape">COMPANY</strong>
+                <br>
+                <a href="#" class="item-nav">Sobre</a>
+                <br>
+                <a href="#" class="item-nav">Empregos</a>
+                <br>
+                <a href="#" class="item-nav">Imprensa</a>
+                <br>
+                <a href="#" class="item-nav">Novidades</a>
+            </div>
+            <div class="col-sm-2 link-footer">
+                <strong class="titulo-rodape">COMUNIDADES</strong>
+                <br>
+                <a href="#" class="item-nav">Artistas</a>
+                <br>
+                <a href="#" class="item-nav">Desenvolvedores</a>
+                <br>
+                <a href="#" class="item-nav">Marcas</a>
+            </div>
+            <div class="col-sm-2 link-footer">
+                <strong class="titulo-rodape">LINKS ÚTEIS</strong>
+                <br>
+                <a href="#" class="item-nav">Ajuda</a>
+                <br>
+                <a href="#" class="item-nav">Presentes</a>
+                <br>
+                <a href="#" class="item-nav">Player na web</a>
+            </div>
+            <div class="col-sm-3 link-footer">
+                <img src="../img/facebook.png" alt="facebook" class="redes">
+                <img src="../img/instagram.png" alt="instagram" class="redes">
+                <img src="../img/twitter.png" alt="twitter" class="redes">
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="../js/script.js" defer></script>
+    
+    <!-- JavaScript Bootstrap -->
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

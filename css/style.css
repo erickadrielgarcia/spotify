@@ -1,0 +1,215 @@
+@keyframes animacao{
+	from{margin-left: 100px;}
+	to{margin-left: 0px;}
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url(../img/capa.png), linear-gradient(to right, #e778e2 60%, #b05df3);
+	font-family: 'Kanit', sans-serif;
+	height: 150px;
+}
+
+#navbar{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#spotify{
+	height: 70px;
+}
+
+.item{
+	margin-top: 50px;
+	font-size: 17px;
+	color: white;
+}
+
+.item-nav{
+	text-decoration: none;
+	color: white;
+}
+
+.item-nav:hover{
+	color: #8f09f6;
+}
+
+.carousel-inner{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 200px;
+}
+
+.titulo-slider{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#nota{
+	width: 18px;
+	margin-right: 10px;
+}
+
+#free{
+	background-color: #722bef;
+	color: white;
+	border-radius: 15px;
+	border-color: #722bef;
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px 30px 5px 30px;
+	margin-right: 50px;
+	text-decoration: none;
+}
+
+#premium{
+	background-color: transparent;
+	color: white;
+	border-radius: 15px;
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px 30px 5px 30px;
+	text-decoration: none;
+}
+
+.galeria{
+	background-color: white;
+	width: 100%;
+	height: 570px;
+	padding-top: 55px;
+	padding-left: 190px;
+}
+
+
+.titulo-item-3, .subtitulo-item-3{
+	animation-name: animacao;
+	animation-duration: 2s;
+}
+
+.titulo-item-3{
+	font-size: 40px;
+	color: #722bef;
+}
+
+.subtitulo-item-3{
+	color: #722bef;	
+}
+
+.titulo-principal{
+	font-size: 40px;
+	color: #722bef;
+}
+
+.subtitulo{
+	color: #722bef;
+}
+
+.img_galeria{
+	height: 190px;
+	box-shadow: 1px 1px 2px;
+	margin-top: 15px;
+}
+
+#galeria-item-index, #galeria-item-1, #galeria-item-2, #galeria-item-3, #galeria-item-image{
+	position: absolute;
+}
+
+#galeria-item-index{
+	display: block;
+}
+
+#galeria-item-1{
+	display: none;
+}
+
+#galeria-item-2{
+	display: none;
+	text-align: center;
+	margin-top: 150px;
+}
+
+#galeria-item-3{
+	display: none;
+}
+
+#galeria-item-image	{
+	display: none;
+}
+
+
+.row{
+	margin-right: 0px;
+}
+
+.iphone_1{
+	float: right;
+	height: 520px;
+	transform: rotate(10deg);
+	margin-top: 44px;
+	margin-right: 10px;
+}
+
+.iphone_2{
+	float: right;
+	height: 520px;
+	transform: rotate(10deg);
+	margin-top: 156px;
+	margin-right: 154px;
+}
+
+.info{
+	margin-left: 190px;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+.rodape{
+	background-color: #1e1e1e;
+	height: 236px;
+}
+
+.titulo-info{
+	font-size: 50px;
+	color: white;
+}
+
+h3{
+	color: #aeeee0	;
+}
+
+.texto-info{
+	color: white;
+}
+
+.botton-galeria{
+	text-decoration: none;
+	border: none;
+	background-color: transparent;
+}
+
+#spotify-rodape{
+	height: 65px;
+	margin-top: 80px;
+	margin-left: 35px;
+}
+
+.titulo-rodape{
+	color: white;
+	font-size: 18px;
+	margin-top: 80px;
+}
+
+.link-footer{
+	margin-top: 55px;
+}
+
+.redes{
+	cursor: pointer;
+	margin-left: 10px;
+}
